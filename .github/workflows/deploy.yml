@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main   # 你项目的主分支
 
 permissions:
   contents: read
@@ -19,24 +19,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 检出仓库代码
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive   # ✅ 拉取主题 submodule
           fetch-depth: 0
 
+      # 自动拉取 Hyde 主题
+      - name: Install Hyde theme
+        run: |
+          rm -rf themes/hyde
+          git clone https://github.com/spf13/hyde.git themes/hyde
+
+      # 安装 Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.133.1"
+          hugo-version: "0.133.1"   # 固定版本
           extended: true
 
+      # 检查 Hugo 版本（调试用）
       - name: Check Hugo version
         run: hugo version
 
+      # 构建站点
       - name: Build
         run: hugo --minify
 
+      # 上传构建产物作为 GitHub Pages artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
