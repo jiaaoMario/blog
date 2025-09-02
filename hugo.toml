@@ -1,0 +1,8 @@
+baseURL = 'https://blog.jiaao.com/'
+languageCode = 'en-us'
+theme = "hyde"
+title = ''
+
+[params]
+  description = "加奥的个人博客"
+  sidebarPosition = "left"

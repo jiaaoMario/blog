@@ -1,0 +1,12 @@
+# Hugo build
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
