@@ -1,8 +1,11 @@
 baseURL = 'https://jiaaomario.github.io/blog/'
-languageCode = 'zh-en'
-theme = "hugo-theme-yinyang"
+languageCode = "en-us"
+theme = "NightFolio"
 title = '加奥的个人博客'
 
 [params]
   description = "加奥的个人博客"
   sidebarPosition = "left"
+
+[outputs]
+  home = ["HTML"]

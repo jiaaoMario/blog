@@ -4,3 +4,6 @@
 [submodule "themes/hugo-theme-yinyang"]
 	path = themes/hugo-theme-yinyang
 	url = https://github.com/joway/hugo-theme-yinyang.git
+[submodule "themes/nightFolio"]
+	path = themes/nightFolio
+	url = https://github.com/cx48/NightFolio.git
