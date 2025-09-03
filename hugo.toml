@@ -1,6 +1,6 @@
 baseURL = 'https://jiaaomario.github.io/blog/'
 languageCode = "en-us"
-theme = "hyde"
+theme = "hugo-theme-yinyang"
 title = '加奥的个人博客'
 
 [params]
