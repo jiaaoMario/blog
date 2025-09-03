@@ -1,4 +1,4 @@
-baseURL = 'https://blog.jiaao.com/'
+baseURL = 'https://blog.jiaao.com/blog/'
 languageCode = 'en-us'
 theme = "hyde"
 title = ''
