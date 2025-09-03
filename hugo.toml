@@ -1,7 +1,7 @@
 baseURL = 'https://blog.jiaao.com/blog/'
 languageCode = 'en-us'
-theme = "hyde"
-title = ''
+theme = "hugo-theme-diary"
+title = '加奥的个人博客'
 
 [params]
   description = "加奥的个人博客"
