@@ -6,3 +6,10 @@ title = '加奥的个人博客'
 [params]
   description = "加奥的个人博客"
   sidebarPosition = "left"
+
+[menu]
+
+  [[menu.main]]
+    name = "文章"
+    url = "/post/"
+    weight = 2
