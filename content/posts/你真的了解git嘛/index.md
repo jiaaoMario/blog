@@ -5,11 +5,8 @@ author: 马加奥
 tags: ["git", "版本控制"]
 categories: ["git"]
 ---
-
-Git是一个最流行的**分布式版本控制系统**，我们在日常的开发过程中每天都会使用到，可能你对git：add、status、commit、push、pull、merge，这些命令已经再熟悉不过。因此这些基础的能力不在我们本次分享的范围内。我们来点不一样的，聊聊你可能不了解的，git的另一面。
+今天我们来点不一样的，聊聊你可能不了解的，git的另一面。
 <!--more-->
-
-# 你真的了解git嘛
 
 > 
 - [前言](notion://www.notion.so/majiaao/git-dbb8f7daf7a84b8e8b1dd67bfebbc8c4#1.%E5%89%8D%E8%A8%80)
